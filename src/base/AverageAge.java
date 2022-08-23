@@ -17,7 +17,7 @@ public class AverageAge {
         double average = 0;
         int total = 0;
         try{
-            for (int i = 0; i < ageRawData.length-1 ; i++) {
+            for (int i = 0; i < ageRawData.length ; i++) {
                  total =  total + Integer.parseInt(ageRawData[i]) ;
                 average = total/ageRawData.length;
             }
